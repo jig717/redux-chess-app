@@ -1,0 +1,31 @@
+.board {
+  width: 480px;
+  height: 480px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border: 2px solid #222;
+  margin: 16px 0;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+  box-sizing: border-box;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.white:hover {
+    background-color: yellow;
+}
+
+.black:hover {
+    background-color: red;
+}
